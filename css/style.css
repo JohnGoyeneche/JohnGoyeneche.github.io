@@ -3,7 +3,7 @@
             #apDiv1 {
 	position: absolute;
 	width: 1000px;
-	height: 168px;
+	height: 185px;
 	z-index: 1;
 	border-radius: 10px 10px 0px 0px;
             }
@@ -22,7 +22,7 @@
 	width: 251px;
 	height: 50px;
 	z-index: 1;
-	top: 179px;
+	top: 152px;
 	left: 771px;
             }
             #apDiv4 {
@@ -31,7 +31,7 @@
 	height: 34px;
 	z-index: 1;
 	left: 679px;
-	top: 185px;
+	top: 152px;
             }
             #apDiv5 {
 	position: absolute;
@@ -186,8 +186,8 @@ div {
 	height: 43px;
 	z-index: 8;
 	left: 560px;
-	top: 191px;
-	color: #FFFFFF;
+	top: 155px;
+	color: #000000;
 }
         #apDiv20 {
 	position: absolute;
@@ -195,7 +195,7 @@ div {
 	height: 18px;
 	z-index: 9;
 	left: 523px;
-	top: 184px;
+	top: 152px;
 }
         .class body section article p {
 	font-weight: bold;
@@ -228,8 +228,8 @@ div {
 	width: 531px;
 	height: 21px;
 	z-index: 1;
-	left: 220px;
-	top: 142px;
+	left: 0px;
+	top: 155px;
 	color: #006680;
 	border-top-color: #006680;
 }
@@ -256,12 +256,22 @@ div {
         #apDiv27 {
 	position: absolute;
 	width: 200px;
-	height: 31px;
+	height: 36px;
 	z-index: 12;
 	font-size: 12px;
 	color: #FFF;
 	left: 516px;
-	top: 1095px;
+	top: 1105px;
+		}
+	     #apDiv28 {
+		position: absolute;
+	width: 576px;
+	height: 31px;
+	z-index: 11;
+	left: 350px;
+	top: 1091px;
+	font-size: 12px;
+	color: #FFF;
 }
 #contenidos{
 	width: 1000px;
@@ -304,28 +314,52 @@ header{
 	height: 120 px;
 	background: rgba(255, 255, 255, 10,70);
 }
-nav{
+
+/* estilos generales*/
+nav {
 	width: 1000px;
-	height: 65px;
+	height: 80px;
 	background: #003f5e;
 	border-radius: 0px 0px 10px 10px;
 	color: #006680;
+	
 }
 ul{
 margin: auto;
 padding-top: 4px;
+
 }
 li{
 	float: left;
 	list-style-type: none;
-	padding: 13px;
+	padding: 13px 2.5em;
 	background: #003f5e;
-	margin: 3px;
+	margin: 6px;
 	border-radius: 7px;
 	box-shadow: inset 0px 0px 10px white;
-	margin-top: 7px;
+	margin-top: 15px;
+	position: relative;
 }
-section{
+
+
+nav li ul {
+	display:none;
+	position:absolute;
+	left: -40px;
+		
+}	
+
+nav li:hover ul {
+	
+	display:block;
+}
+nav ul> li> ul{
+	
+top:60%;
+	
+}	
+
+	section{
 	width: 713px;
 	background: white;
 	height: 720px;
@@ -361,6 +395,14 @@ font-family: Arial, Helvetica, sans-serif;
 	padding: 10px;
 	text-align: left;
 }
+
+nav ul ul ul{
+		display:none;
+	}
+		
+nav 		
+		
+}	
 /*CLASES*/
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
@@ -381,6 +423,8 @@ font-family: Arial, Helvetica, sans-serif;
 	color: #003F5E;
 	text-decoration: none;
 }
+
+
 
 /*SEUDO CLASES*/
 p {
