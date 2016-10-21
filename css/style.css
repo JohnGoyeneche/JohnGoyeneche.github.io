@@ -30,7 +30,7 @@
 	width: 123px;
 	height: 34px;
 	z-index: 1;
-	left: 679px;
+	left: 644px;
 	top: 152px;
             }
             #apDiv5 {
@@ -273,6 +273,27 @@ div {
 	font-size: 12px;
 	color: #FFF;
 }
+ #apDiv29 {
+	position: absolute;
+	width: 123px;
+	height: 34px;
+	z-index: 1;
+	left: 718px;
+	top: 152px;
+            }
+			 #apDiv30 {
+	position: absolute;
+	width: 123px;
+	height: 34px;
+	z-index: 1;
+	left: 679px;
+	top: 152px;
+            }
+
+
+
+
+
 #contenidos{
 	width: 1000px;
 	height: auto;
