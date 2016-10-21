@@ -28,9 +28,9 @@
                 <li><a href="#" class="menu">Lecturas</a>
 				   <ul>
 				     <li><a href="lectura1.html" >Consideraciones para redactar un ERS</a></li>
-					 <li><a href="lectura2.html" >Contenido y organización</a></li>
-					 <li><a href="lectura3.html" >Organización de los requerimientos especificos</a></li>				   
-					 <li><a href="lectura4.html" >Creación de prototipos</a></li>				   
+					  <li><a href="lectura4.html" >Contenido y organización</a></li>
+					 <li><a href="#" >Organización de los requerimientos especificos</a></li>				   
+					 <li><a href="#" >Creación de prototipos</a></li>					   
 				</ul>
 				</li>
 				
@@ -76,33 +76,104 @@
              </nav>
             <div id="apDiv14"><a href="https://campus0a.unad.edu.co/campus0/login/index.php" target="_blank"><img src="img/campus.png" width="116" height="101"></a>									</div>
     <section style="height: 800px;width: 715px; overflow-y: auto; ">
-    <h2>ANALISIS DE REQUIRIMIENTOS - BASADOS EN LA NORMA IEEE830</h2>
+    <h1> CONSIDERACIONES PARA REDACTAR LA ESPECIFICACIÓN DE REQUERIMIENTOS DE SOFTWARE </h1>
     <div id="apDiv20"><a href="https://informacion.unad.edu.co/correo" target="_blank"><img src="img/rss_aqu_32.png" class="menu" title="Correo Institucional" border="0" /></a></div>
                 <article>
                     <figure>
-                        <img src="img/diseno_web.png" alt="Diseno">
+                        <img src="img/bookSRS.png" alt="Diseno">
                   	</figure>
 					 <p>
-					<h2> REQUIRIMIENTOS PARA EL DESARROLLO DE SOFTWARE</h2>
+					<h2>AMBIENTE DEL SRS</h2>
 					<p align="justify">
-					El siguiente curso teorico-práctico contiene una explicación puntual sobre el analisis de requerimientos para el desarrollo de software, el mismo basado
-sobre la norma IEEE830 de 1998, expedida por las instituciones Software Engineering Standards Committee, del IEEE Computer Society IEEE (Institute of Electric and Electronic Engineers, en E.U.A.)
+				
+				El SRS es la fuente principal para hacer el plan detallado de un proyecto de software.<BR>
+                Un SRS puede referirse a los requerimientos deseados de todos los componentes de un sistema grande, o a componentes (módulos) individuales del mismo.<BR>
+				Si se hacen SRS por separado para varios módulos, tiene que mantenerse la consistencia en los documentos. Si un software necesita interactuar con otro, tienen que especificarse los requerimientos de esa interacción (interfaces), definiendo sus funcionalidades y el nivel de desempeño deseado
 					</p>
-					    <h2 align="justify">OBJETIVOS DEL CURSO</h2>
-					    <p align="justify">
-                       * Ayudar a los clientes a describir claramente lo que se desea obtener mediante un software<br>
-                       * Ayudar a los desarrolladores a entender qué quiere exactamente el cliente<br>
-                       * Servir de base para desarrollos de estándares de ERS particulares para cada organización
-                   </p>				   
-				   
-                       <h2>TEMATICA DEL CURSO</h2>
-					   <p align="justify">
-					   * Consideraciones para redactar la especificacion de requerimintos de software<br>
-					   * Contenido y organización tipicos de la especificación de requerimientos de software<br>
-					   * Organización de los requerimientos especificos<br>
-					   * Creación de prototipos
-					   
-				  </p>
+
+					<h2>CARACTERISTICAS DE UN BUEN SRS</h2>
+					<p align="justify">
+				Entre las caracteristicas principales que tiene que contener un SRS podemos definir que el mismo debe ser:
+	<hgroup>
+<h2 align="justify">Correcto</h2>
+<p align="justify">
+*El SRS es correcto si los requerimientos escritos son aquellos que el software deberá cumplir.<br>
+*No hay un método para saber si el SRS es correcto; lo importante es que se pida lo que realmente se necesita.<br>
+</p>
+<h2>No ambiguo</h2>
+<p align="justify">
+*Un SRS es no ambiguo si cada requerimiento establecido en él tiene una sóla interpretación posible, tanto por el cliente/usuario como por el desarrollador.<br>
+*En casos donde alguna palabra pudiera tener múltiples significados, se debe incluir su definición precisa en un glosario que se adicione al SRS. <br>
+Ejemplos: planta, obra, maestro, carga, flecha.
+</p>
+<h3>Métodos de representación de requerimientos:</h3>
+<p align="justify">
+*Basados en objetos: identificar clases de objetos similares (alumno, empleado, producto, etc.).
+*Basados en procesos (compras, ventas, cobranza)
+*Basados en conductas (la conducta de un robot)
+</p>
+<h2>Completo</h2>
+<p align="justify">
+Un SRS es completo si incluye:<br>
+
+*Todos los requerimientos significativos sobre funcionalidades, desempeño, restricciones de diseño, atributos, o interfaces externas.<br>
+*Las respuestas que debería dar el software a todas las posibles entradas de datos en todas las situaciones posibles (entradas aceptables o no aceptables: validación).<br>
+*Especificación de unidades de medida (si son aplicables).<br>
+*En caso de que el SRS tenga diagramas o tablas informativas, hay que darles número o identificación.<br>
+</p>
+<h2>Consistente</h2>
+<p align="justify">
+*Los diversos requerimientos escritos tienen que ser compatibles entre sí; no debe haber contradicciones ni conflictos entre ellos.<br>
+*Para lograr la consistencia deben evitarse los siguientes conflictos:<br>
+    -En características especificadas de objectos del mundo real<br>
+    -De lógica o de tiempo entre dos actividades<br>
+    -Referencia a un mismo objeto del mundo real pero usando diferentes palabras para el mismo objeto<br>
+</p>
+<h2>Ordenado con base en importancia y/o estabilidad</h2>
+<p align="justify">
+
+*Cada requerimiento especificado debe tener alguna identificación (número, letra, secuencia alfanumérica) para indicar su grado de importancia o de estabilidad<br>
+*Algunos requerimientos son más importantes que otros<br>
+*Al rankearlos se puede brindar cada a requerimiento la atención que se merece.<br>
+*Grado de estabilidad:  número de cambios que se podrían esperar para un requerimiento, debido a eventos futuros que afecten a la organización, las responsabilidades, y las personas que usarán el software<br>
+*Grado de necesidad: <br>
+-Esencial<br>
+-Condicional<br>
+-Opcional<br>
+</p>
+<h2>Verificable</h2>
+<p align="justify">
+Un requerimiento es verificable si existe algún método rentable mediante el cual se pueda analizar si el software cumple ese requerimiento. <br>
+Ejemplo: <br>
+“La respuesta del programa deberá darse dentro de los 20 seg posteriores a la apertura de la válvula VX389, y debe responder correctamente en el 60% de los casos”<br>
+Contraejemplo (algo no verificable):<br>
+“El programa tiene que funcionar bien”<br>
+*Si no existe algún método para saber si el software cumple o no un requerimiento, entonces ese requerimiento debe ser revisado o eliminado.<br>
+
+</p>
+
+<h2>Modificable</h2>
+<p align="justify">
+*Es modificable si la estructura y estilo de redacción permiten la realización de cambios en forma fácil, completa y consistente<br>
+*Para esto es recomendable:<br>
+-Incluir índice, tabla de contenido y tabla de referencias cruzadas<br>
+-Cada requerimiento debe aparecer sólo una vez (la redundancia propicia errores de inconsistencia)<br>
+-Poner cada requerimiento separado de los demás<br>
+</p>
+<h2>Rastreable</h2>
+<p align="justify">
+
+*Cada requerimiento debe identificarse con algún número, letra o secuencia alfanumérica.<br>
+*Un SRS es rastreable si el origen de cada requerimiento es claro, y si facilita el seguimiento de cada requerimiento a lo largo del proyecto de software<br>
+Dos tipos de rastreabilidad:<br>
+*Hacia atrás: en cada requerimiento se menciona explícitamente su fuente documental<br>
+*Hacia delante: los documentos que se deriven del SRS deben usar las identificaciones de requerimientos como fueron dadas en el SRS<br>
+
+</p>
+
+</hgroup>
+	</p>
+	
       			</article>
     </section>
     <aside> 
