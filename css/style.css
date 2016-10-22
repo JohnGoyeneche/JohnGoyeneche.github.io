@@ -26,12 +26,13 @@
 	left: 771px;
             }
             #apDiv4 {
-	position: absolute;
+position: absolute;
 	width: 123px;
 	height: 34px;
 	z-index: 1;
-	left: 644px;
+	left: 650px;
 	top: 152px;
+            
             }
             #apDiv5 {
 	position: absolute;
@@ -278,7 +279,7 @@ div {
 	width: 123px;
 	height: 34px;
 	z-index: 1;
-	left: 718px;
+	left: 722px;
 	top: 152px;
             }
 			 #apDiv30 {
@@ -286,7 +287,7 @@ div {
 	width: 123px;
 	height: 34px;
 	z-index: 1;
-	left: 679px;
+	left: 686px;
 	top: 152px;
             }
 
