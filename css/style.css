@@ -478,7 +478,7 @@ font-family: Arial, Helvetica, sans-serif;
 /*SEUDO CLASES*/
 p {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: normal;
 	color: #333;
 }
@@ -496,10 +496,13 @@ p {
 table tr{
 	
 	text-align:justify;
-		font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
 	font-weight: normal;
 	color: #333;
 }
+	
+	
+	
 	
 }
